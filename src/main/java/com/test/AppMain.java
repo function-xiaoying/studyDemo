@@ -10,6 +10,8 @@ public class AppMain {
         System.out.println("hot-fix test");
         System.out.println("add");
         System.out.println("手动修改");
+        System.out.println("手动修改1");
+        System.out.println("手动修改2");
     }
 
 }

@@ -1,0 +1,97 @@
+.idea/
+.vscode/
+WeaverRasp-Agent/target/
+WeaverRasp-Api/target/
+WeaverRasp-Engine/target/
+
+# =========================
+# Java 常用忽略文件
+# =========================
+
+# 编译输出
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# =========================
+# Maven
+# =========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle-wrapper.jar
+# 如果使用 Kotlin DSL，也可以忽略以下
+*.kts~
+
+# =========================
+# IDE
+# =========================
+
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VSCode
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nbm/
+
+# =========================
+# 系统文件
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux 临时文件
+*~
+
+# =========================
+# 日志与临时文件
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# 环境变量文件（如果有）
+# =========================
+.env
+.env.*
+*.local
+
+# =========================
+# 其他缓存
+# =========================
+.cache/
