@@ -20,4 +20,12 @@ public class Test02 {
 
     }
 
+     public static String nullToString4(Object s){
+        if(s == null){
+            return "";
+        }else{
+            return s.toString().trim();
+        }
+
+    }
 }
