@@ -12,6 +12,7 @@ public class AppMain {
         System.out.println("手动修改");
         System.out.println("手动修改1");
         System.out.println("手动修改2");
+        System.out.println("手动修改3");
     }
 
 }
