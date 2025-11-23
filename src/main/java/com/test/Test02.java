@@ -28,4 +28,13 @@ public class Test02 {
         }
 
     }
+
+         public static String nullToString2(Object s){
+        if(s == null){
+            return "";
+        }else{
+            return s.toString().trim();
+        }
+
+    }
 }
