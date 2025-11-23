@@ -33,6 +33,14 @@ public class Test01 {
 
     }
 
+        public static String nullToString1(Object s){
+        if(s == null){
+            return "";
+        }else{
+            return s.toString().trim();
+        }
+
+    }
 
 
 
